@@ -1,101 +1,209 @@
+/* General styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    width: 100%;
-    font-size: 20px;
-    font-family: lato, nyt-imperial, georgia, 'times new roman', times, serif;
-    background-color: #fff;
+  width: 100%;
+  font-size: 20px;
+  font-family: lato, nyt-imperial, georgia, "times new roman", times, serif;
+  background-color: #fff;
 }
 
 a {
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
 }
 
 .clearfix {
-    zoom: 1;
+  zoom: 1;
 }
 
 .clearfix:after {
-    content: ".";
-    display: block;
-    visibility: hidden;
-    height: 0;
-    clear: both;
+  content: ".";
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
 }
 
 li {
-    list-style: none;
-    display: inline;
-    margin: 0 4px;
+  list-style: none;
+  display: inline;
+  margin: 0 4px;
 }
 
+/* Header */
 header nav {
-    width: 100%;
-    font-size: 14px;
-    padding: 5px;
-    position: fixed;
-    background-color: #fff;
-    border-bottom: 1px solid #faf5f5;
-    text-align: center;
+  width: 100%;
+  font-size: 14px;
+  padding: 10px 5px 5px 5px;
+  position: fixed;
+  background-color: #fff;
+  border-bottom: 1px solid #dddddd;
+  text-align: center;
+  z-index: 1;
 }
 
 .nav-1 ul {
-    width: 100%;
+  width: 100%;
 }
 
+.nav-1 .menu img,
+.nav-1 .search img {
+  width: 15px;
+  margin: 0 10px;
+}
+
+.nav-1 .logo img {
+  width: 200px;
+}
 li.left {
-	float: left;
+  float: left;
 }
 
 li.btn {
-    float: right;
+  float: right;
 }
 
-
 .btn {
-    background-color: #6288a5;
-    padding: 8px;
-    border-radius: 5px;
+  background-color: #6288a5;
+  padding: 8px;
+  border-radius: 5px;
 }
 
 .btn a {
-    color: #fff;
-    font-size: 10px;
-    font-weight: bold;
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
 }
 
 .nav-2 {
-    display: none;
+  display: none;
 }
 
 header h1 {
-    position: relative;
-    left: 25%;
-    top: 50px;
+  position: relative;
+  left: 25%;
+  top: 50px;
 }
 
 .hero-image {
-    width: 900px;
-    margin: 0 auto;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .hero-image img {
-    margin-top: 8%;
-    width: 100%;
-    height: 500px;
+  margin-top: 8%;
+  width: 100%;
+  height: 500px;
 }
 
-.hero-image span {
-    width: 100px;
-    font-size: small;
-    color: #a19c9c;
+p.image-desc {
+  font-size: 15px;
+  color: #747474;
 }
-span.credit{
-	text-transform: uppercase;
+p.credit {
+  font-size: 13px;
+  color: #a19c9c;
+}
+
+/* Content */
+main.content {
+  width: 100%;
+  position: relative;
+}
+main.content section {
+  margin: 30px auto;
+  width: 90%;
+}
+main.content section.inflation {
+    margin: 0 auto;
+    width: 100%;
+  }
+main.content section article{
+    float: left;
+    width: 70%;
+    position: relative;
+}
+main.content section article div{
+    width: 70%;
+    float: right;
+}
+
+main.content section aside{
+    float: left;
+    width:30%;
+    padding: 50px;
+}
+
+main.content section p {
+  margin: 20px 0;
+  line-height: 1.4;
+}
+
+main.content section p a {
+  text-transform: none;
+  text-decoration: underline; 
+  color: #6288a5
+}
+main.content section h3 {
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+section.inflation{
+    position: relative;
+    left: 10px;
+    width: 250%;
+}
+
+section.inflation img{
+
+}
+
+div.author {
+  margin: 30px auto;
+  width: 50%;
+}
+.author p {
+  font-size: 15px;
+  text-transform: none;
+}
+
+.author ul {
+  margin: 20px 0;
+  overflow: hidden;
+}
+
+.author ul li:first-child {
+  float: left;
+  font-size: 12px;
+  background: none;
+  width: auto;
+}
+
+.author ul li {
+  float: right;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #dddddd;
+  margin: 5px;
+}
+.author ul li a {
+  position: relative;
+}
+.author img {
+  width: 15px;
+  position: absolute;
+  margin: 5px 5px;
+}
+
+aside.sidebar {
+  width: 30%;
+  float: left;
 }
