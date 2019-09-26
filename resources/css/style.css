@@ -30,6 +30,22 @@ a {
     clear: both;
 }
 
+.clearright:after {
+    content: ".";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: right;
+}
+
+.clearleft1:after {
+   content: ".";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: left;
+}
+
 li {
     list-style: none;
     display: inline;
@@ -168,8 +184,8 @@ section.inflation {
     width: 250%;
 }
 
-section.inflation img {}
-
+/*section.inflation img {}
+*/
 div.author {
     margin: 30px auto;
     width: 50%;
@@ -219,7 +235,15 @@ aside.sidebar {
 .clearleft {
     content: ".";
     display: block;
-    visibility: hidden;
+    /*visibility: hidden;*/
+    height: 0;
+    clear: left;
+}
+
+.clearboth {
+    content: ".";
+    display: block;
+    /*visibility: hidden;*/
     height: 0;
     clear: left;
 }
