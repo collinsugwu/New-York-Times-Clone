@@ -22,18 +22,6 @@ a {
   text-transform: uppercase;
 }
 
-.clearfix {
-  zoom: 1;
-}
-
-.clearright {
-  zoom: 1;
-}
-
-.clearleft1 {
-  zoom: 1;
-}
-
 .clearfix:after {
   content: ".";
   display: block;
