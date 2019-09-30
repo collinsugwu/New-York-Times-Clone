@@ -20,7 +20,7 @@ Open your terminal in your working folder and execute the following command
 
 
 Here is the link to the live version of this project	
-[here]()
+[here](https://raw.githack.com/collinsugwu/New-York-Times-Clone/newyork-times-article-page-design/index.html)
 
 
 ## Things learnt
