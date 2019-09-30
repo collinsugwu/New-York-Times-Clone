@@ -17,7 +17,7 @@ Here is how to setup this project on your machine.
 Open your terminal in your working folder and execute the following command
 
 >git clone 
-
+https://github.com/collinsugwu/New-York-Times-Clone.git
 
 Here is the link to the live version of this project	
 [here](https://raw.githack.com/collinsugwu/New-York-Times-Clone/newyork-times-article-page-design/index.html)
